@@ -4,9 +4,9 @@ function palindrome(str){
         cont += str[i];
     }
     if (str == cont){
-        console.log("Not a Palinfrome");
+        console.log("Palinfrome");
     } else{
-        console.log("Palindrome");
+        console.log("Not a Palindrome");
     }
 }
 
