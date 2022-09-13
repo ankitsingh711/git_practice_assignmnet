@@ -1,8 +1,8 @@
 function checkPrime(n){
     let count = 0;
     for (i=1;i<n;i++){
-        if (num % i){
-            count--;
+        if (num % i==0){
+            count++;
         }
     }
     if (count == 1){
